@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+    <div></div>
     <h1>Customer Management System</h1>
     <table>
-    <tr>
-        <td>Name</td>
-        <td><input type="text" placeholder="Name" id="txtName"></td>
-    </tr>
-    <tr>
-        <td>Age</td>
-        <td><input type="text" placeholder="Age" id="txtAge"></td>
-    </tr>
-    <tr>
-        <td>Address</td>
-        <td><input type="text" placeholder="Address" id="txtAddress"></td>
-    </tr>
-    <tr>
-        <td>Salary</td>
-        <td><input type="text" placeholder="Salary" id="txtSalary"></td>
-    </tr>
-    <tr>
-        <td>Contact</td>
-        <td><input type="text" placeholder="Contact" id="txtContact"></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td><input type="button" value="Add" onclick="addCustomeronAction()">
-        <input type="button" value="View">
-        <input type="button" value="Update">
-        <input type="button" value="Delete"></td>
-    </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" placeholder="Name" id="txtName"></td>
+        </tr>
+        <tr>
+            <td>Age</td>
+            <td><input type="text" placeholder="Age" id="txtAge"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" placeholder="Address" id="txtAddress"></td>
+        </tr>
+        <tr>
+            <td>Salary</td>
+            <td><input type="text" placeholder="Salary" id="txtSalary"></td>
+        </tr>
+        <tr>
+            <td>Contact</td>
+            <td><input type="text" placeholder="Contact" id="txtContact"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Add" onclick="addCustomeronAction()">
+                <input type="button" value="View">
+                <input type="button" value="Update">
+                <input type="button" value="Delete">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="button" value="Go to Item page" onclick="location.href='index2.html'"></td>
+        </tr>
     </table>
+    <h1>Customer List Table</h1>
+    <table border="1" id="customerTable"></table>
     <script src="app.js"></script>
 </body>
+
 </html>

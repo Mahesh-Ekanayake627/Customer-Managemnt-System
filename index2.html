@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Item Management System</h1>
+    <table>
+    <tr>
+        <td>ItemName</td>
+        <td><input type="text" placeholder="Name" id="txtItemName"></td>
+    </tr>
+    <tr>
+        <td>Model</td>
+        <td><input type="text" placeholder="Model" id="txtModel"></td>
+    </tr>
+    <tr>
+        <td>Price</td>
+        <td><input type="text" placeholder="Price" id="txtPrice"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="Add" onclick="addItemonAction()">
+        <input type="button" value="View">
+        <input type="button" value="Update">
+        <input type="button" value="Delete"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><input type="button" value="Go to Customer page" onclick="location.href='index.html'"></td>
+    </tr>
+    </table>
+    <h1>Item List Table</h1>
+    <table border="1" id="itemTable">
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
