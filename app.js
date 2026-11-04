@@ -1,4 +1,4 @@
-// //console.log("hi");
+//console.log("hi");
 // let CustomerList = [];
 // let ItemList = [];
 
