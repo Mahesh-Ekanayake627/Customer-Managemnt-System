@@ -96,34 +96,34 @@
 
 // }
 
-let customer={
-    name:"Mahesh",
-    age:"25",
-    address:"Colombo",
-    salary:"75000",
+let customer = {
+    name: "Mahesh",
+    age: "25",
+    address: "Colombo",
+    salary: "75000",
     Contact: {
-        provider:"Mobitel",
-        number:"0771234567",
+        provider: "Mobitel",
+        number: "0771234567",
         data: {
-            sample :"00001",
-            test:{
-                sp:"KO42",
-                ms:"AW78",
+            sample: "00001",
+            test: {
+                sp: "KO42",
+                ms: "AW78",
             }
         }
     },
-    Orders:[
+    Orders: [
         {
-            name:"egg Bun",
-            Qty:100,
-            UnitPrice:150
+            name: "egg Bun",
+            Qty: 100,
+            UnitPrice: 150
         },
         {
-            name:"Milk",
-            Qty:50,
-            UnitPrice:200
+            name: "Milk",
+            Qty: 50,
+            UnitPrice: 200
         }
-    ]  
+    ]
 }
 
 console.log(customer.Orders[0].Qty);
